@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 400px;
+  font-family: "Noto Serif Hebrew", serif;
+  font-weight: 700;
+}
