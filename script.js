@@ -26,17 +26,19 @@ const change = () => {
 
 (function() {
 
-  window.addEventListener('keydown', function (e) {
-    switch (e.keyCode) {
-      case 37:
-        change(true);
-        break;
-      case 39:
-        change(false);
-        break;
-      case 83: //s
-        change(false, true);
-        break;
-    }
-  })
+  window.addEventListener('click', change);
+  window.addEventListener('keydown', change);
+  // window.addEventListener('keydown', function (e) {
+  //   switch (e.keyCode) {
+  //     case 37:
+  //       change();
+  //       break;
+  //     case 39:
+  //       change();
+  //       break;
+  //     case 83: //s
+  //       change();
+  //       break;
+  //   }
+  // })
 })();
